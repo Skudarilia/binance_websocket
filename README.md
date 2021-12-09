@@ -11,8 +11,9 @@
   2) docker images - чтобы узнать IMAGE ID запущенного контейнера
   3) docker run <IMAGE ID>
   
- Для __запуска unit тестов__ необходимо выполнить следующую команду:
-  1) pytest tests/test_work.py
+ Для __запуска unit тестов__ необходимо:
+  1) в папке tests создать файл __init__.py
+  2) выполнить следующую команду: pytest tests/test_work.py
 
   
   
