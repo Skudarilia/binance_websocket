@@ -45,8 +45,7 @@ def calculate_sma(sma_list):
     length = len(sma_list)
     summ = 0
     for i in sma_list:
-        if bool(re.search(r'^\d*\.?\d*$', i)):  # ^ - start of line, $ - end of line
-            summ += float(i)
+        summ += float(i)
     return summ / length
 
 
